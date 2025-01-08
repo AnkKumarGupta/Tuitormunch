@@ -1,3 +1,5 @@
-# Tuitormunch
+# Tutormunch
 
-Website for hiring tuitors at ease.
+Website for hiring tutors at ease.
+
+
