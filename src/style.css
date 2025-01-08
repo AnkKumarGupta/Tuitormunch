@@ -1,0 +1,110 @@
+/* General Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  
+  /* Custom Spacing for Sections */
+  section {
+    padding: 3rem 0;
+  }
+  
+  /* Services Section */
+  .services {
+    text-align: center;
+    padding: 2rem 0;
+    background: #ecf0f1;
+  }
+  
+  .service-cards {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  /* Cities Section */
+  .cities {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .city-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .city-list li {
+    background: #3498db;
+    color: white;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
